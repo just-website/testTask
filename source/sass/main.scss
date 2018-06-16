@@ -1,0 +1,38 @@
+.main {
+    background-color: $primary-bg-color;
+    background-image: url("../img/grey\ back.png");
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: "Kurale";
+}
+
+.main__header {
+    font-size: 48px;
+    background-image: url("../img/illustration.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    font-size: 34px;
+    padding: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.main__orders {
+    width: 1024px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.main__sort {
+    font-family: "Tahoma";
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    & span {
+        color: $orange-color;
+        border-bottom: 1px dashed $orange-color;
+        cursor: pointer;
+    }
+}

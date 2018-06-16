@@ -1,0 +1,15 @@
+.bookmark::after {
+    display: block;
+    width: 35px;
+    height: 55px;
+    background-image: url("../img/flag.png");
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.bookmark:hover::after {
+    right: 11px;
+    top: -4px;
+}

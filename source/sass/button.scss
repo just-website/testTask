@@ -1,0 +1,18 @@
+.button {
+    background-color: transparent;
+    border: none;
+    font-family: "Kurale";
+    color: $orange-color;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.button--move-up {
+    font-size: 36px;
+    margin-bottom: 0;
+}
