@@ -26,17 +26,35 @@
 
 .footer .container {
     text-align: left;
+    @media (max-width: 1200px) {
+        width: 736px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @media (max-width: 767px) {
+        width: 628px;
+    }
+    @media (max-width: 660px) {
+        width: 320px;
+    }
 }
 
 .footer__email {
     display: block;
     float: left;
     padding-top: 7px;
+    @media (max-width: 767px) {
+        float: none;
+    }
 }
 
 .footer__form--wrapper {
     float: left;
     padding-left: 20px;
+    @media (max-width: 767px) {
+        float: none;
+        padding-left: 0;
+    }
 }
 
 .footer__form--wrapper * {
@@ -91,4 +109,7 @@
     margin-top: 20px;
     padding: 0;
     font-size: 28px;
+    @media (max-width: 659px) {
+        font-size: 18px;
+    }
 }
