@@ -1,0 +1,47 @@
+{
+  "name": "test_task",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "latest",
+    "autoprefixer": "latest",
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-csso": "latest",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-shell": "latest",
+    "run-sequence": "latest",
+    "stylelint": "latest",
+    "stylelint-config-htmlacademy": "latest"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint 'source/sass/**/*.scss' --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start && gulp sync"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "8.9"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}

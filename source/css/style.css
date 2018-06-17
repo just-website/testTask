@@ -30,24 +30,18 @@ body {
       font-size: 33px; } }
 
 .main__orders {
-  width: 1024px;
-  margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px; }
+  width: 960px;
+  margin: 0 auto; }
   @media (max-width: 1200px) {
     .main__orders {
-      width: 736px;
-      padding-left: 16px;
-      padding-right: 16px; } }
+      width: 736px; } }
   @media (max-width: 767px) {
     .main__orders {
-      width: 660px;
+      width: 640px;
       text-align: center; } }
   @media (max-width: 659px) {
     .main__orders {
-      width: 290px;
-      padding-left: 10px;
-      padding-right: 10px; } }
+      width: 290px; } }
 
 .main__sort {
   font-family: "Tahoma";
@@ -64,23 +58,17 @@ body {
 
 .container {
   text-align: center;
-  width: 1024px;
-  margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px; }
+  width: 960px;
+  margin: 0 auto; }
   @media (max-width: 1023px) {
     .container {
       width: 736px; } }
   @media (max-width: 767px) {
     .container {
-      width: 660px;
-      padding-left: 20px;
-      padding-right: 20px; } }
+      width: 640px; } }
   @media (max-width: 659px) {
     .container {
-      width: 290px;
-      padding-left: 10px;
-      padding-right: 10px; } }
+      width: 290px; } }
 
 .order-card {
   background-color: white;
@@ -217,7 +205,7 @@ body {
       padding-right: 16px; } }
   @media (max-width: 767px) {
     .footer .container {
-      width: 628px; } }
+      width: 610px; } }
   @media (max-width: 660px) {
     .footer .container {
       width: 270px; } }
