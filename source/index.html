@@ -18,95 +18,97 @@
                Мои заказы 
             </h2>
             <p class="main__sort">
-                Сортировать: <span>по дате</span> | <span>по готовности</span>
+                Сортировать: <span class="date">по дате</span> | <span class="ready">по готовности</span>
             </p>
 
         </div>
 
-        <div class="main__orders">
-
-            <article class="order-card">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: в печати</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
-            <article class="order-card">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: отправлен</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__discription">Цвет: чёрный</p>
-                    <p class="order-card__discription">Размер: 160 x 70</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
-            <article class="order-card bookmark">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: в моём магазине</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
-            <article class="order-card">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: в печати</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
-            <article class="order-card">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: в печати</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
-            <article class="order-card">
-                <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
-                <div class="order-card__wrapper">
-                    <h3 class="order-card__header">Название заказа</h3>
-                    <p class="order-card__status">Статус: отправлен</p>
-                    <p class="order-card__discription">Загружен: 11.04.13</p>
-                    <p class="order-card__discription">Фотополимер покрашенный</p>
-                    <p class="order-card__discription">Количество экземпляров: 1</p>
-                    <p class="order-card__discription">Цвет: чёрный</p>
-                    <p class="order-card__discription">Размер: 160 x 70</p>
-                    <p class="order-card__finished">Выполнен на 60%</p>
-                    <button class="order-card__add button">+Добавить в магазин</button>
-                </div>
-            </article>
-
+        <div class="main__wrap">
+            <div class="main__orders">
+            
+                <article class="order-card">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: в печати</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 12.04.13</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+                <article class="order-card">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: отправлен</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 11.05.13</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__discription">Цвет: чёрный</p>
+                        <p class="order-card__discription">Размер: 160 x 70</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+                <article class="order-card bookmark">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: в моём магазине</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 11.04.12</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+                <article class="order-card">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: в печати</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 21.04.13</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+                <article class="order-card">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: в печати</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 19.04.13</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+                <article class="order-card">
+                    <img src="img/image-item.png" alt="Карточка заказа" class="order-card__img">
+                    <div class="order-card__wrapper">
+                        <h3 class="order-card__header">Название заказа</h3>
+                        <p class="order-card__status">Статус: отправлен</p>
+                        <p class="order-card__discription order-card__discription--date">Загружен: 11.01.13</p>
+                        <p class="order-card__discription">Фотополимер покрашенный</p>
+                        <p class="order-card__discription">Количество экземпляров: 1</p>
+                        <p class="order-card__discription">Цвет: чёрный</p>
+                        <p class="order-card__discription">Размер: 160 x 70</p>
+                        <p class="order-card__finished">Выполнен на 60%</p>
+                        <button class="order-card__add button">+Добавить в магазин</button>
+                    </div>
+                </article>
+            
+            </div>
         </div>
 
         <div class="container">
@@ -142,6 +144,8 @@
 
     </footer>
 
+    <!-- <script src="js/es5-shim.js"></script> -->
+    <!-- <script src="js/script.js"></script> -->
     <script src="js/script.js"></script>
 
 </body>
