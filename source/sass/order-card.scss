@@ -31,6 +31,11 @@
             margin-right: 0;
         }
     }
+    @media (max-width: 659px) {
+        &:nth-child(1n) {
+            margin-right: 0;
+        }
+    }
 }
 
 .order-card:hover {
@@ -82,7 +87,7 @@
 
 .order-card__finished,
 .order-card__add {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: bold;

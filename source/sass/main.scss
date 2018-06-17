@@ -16,6 +16,9 @@
     padding: 40px;
     margin: 0;
     text-transform: uppercase;
+    @media (max-width: 659px) {
+        font-size: 33px;
+    }
 }
 
 .main__orders {
@@ -33,7 +36,7 @@
         text-align: center;
     }
     @media (max-width: 659px) {
-        width: 300px;
+        width: 290px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -48,5 +51,8 @@
         color: $orange-color;
         border-bottom: 1px dashed $orange-color;
         cursor: pointer;
+    }
+    @media (max-width: 659px) {
+        font-size: 15px;
     }
 }
