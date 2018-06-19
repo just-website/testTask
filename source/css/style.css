@@ -24,7 +24,8 @@ body {
   font-size: 34px;
   padding: 40px;
   margin: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #464646; }
   @media (max-width: 659px) {
     .main__header {
       font-size: 33px; } }
@@ -122,7 +123,8 @@ body {
 
 .order-card__wrapper {
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  text-align: left; }
 
 .order-card__discription,
 .order-card__status {
@@ -235,7 +237,8 @@ body {
   border: none;
   font-family: "Kurale";
   font-weight: bold;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  cursor: pointer; }
 
 .footer input[type="checkbox"] {
   display: none; }
@@ -265,7 +268,8 @@ body {
 
 .footer__subscribe {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  cursor: pointer; }
 
 .footer__button {
   margin-top: 20px;
@@ -299,8 +303,19 @@ body {
   top: -17px;
   border: 7px solid transparent;
   border-bottom: 14px solid #ff5e42; }
+  @media (max-width: 659px) {
+    .sort-icon--up::after, .sort-icon--down::after {
+      border-width: 5px;
+      border-bottom-width: 10px;
+      top: -12px;
+      margin-right: 5px; } }
 
 .sort-icon--down::after {
   border: 7px solid transparent;
   border-top: 14px solid #ff5e42;
   top: 21px; }
+  @media (max-width: 659px) {
+    .sort-icon--down::after {
+      border-width: 5px;
+      border-top-width: 10px;
+      top: 17px; } }
